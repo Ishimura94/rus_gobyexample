@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      
+      <title>rus_GoByExample: Типы данных</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+ 
+<body>
+ 
+    <div id="container" style="width: 1100px;">
+
+        <div id="header" style="width: 1100px;">
+            <h2><a href="index.html" style="text-decoration: none;">rus_GoByExample</a>: Типы данных</h2>
+        </div> 
+ 
+        <div id="content" style="width: 1100px;">
+            <a href="https://play.golang.org/p/9Uw-Pt4M_rr" style="text-decoration: none;" target="_blank" title="Выполнить код на play.golang.org"><img src="images/golang.png" width="40" height="15" style="float: right; margin: 5px;"></a>
+            <table width = 1100px;>
+                <tr>
+                    <td width = 550px;>
+                        <div id="comment">
+                            В Go <code style="font-weight: bold;">переменные</code> явно объявляются и используются компилятором,
+                            например, для проверки корректного вызова функции (проверка типа аргумента).</br></br></br></br>
+                            <code style="font-weight: bold;">var</code> объявляет одну или более переменных.</br></br></br>
+                            Вы можете объявить несколько переменных за раз.</br></br></br>
+                            Go будет определять тип по инициализированной переменной.</br></br>
+                            Переменные, объявленные без соответствующей инициализации, имеют нулевое значение. Например, нулевое значение для int равно 0.</br></br>
+                            Используя короткий оператор <code style="font-weight: bold;">:=</code>, <code style="font-weight: bold;">var f string = "apple"</code> в данном случае станет:</br>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="coding">
+                            <!-- для табов использовать символ пробела &nbsp. 1 таб - три символа -->
+                            package main</br></br>
+                            import "fmt"</br></br>
+                            func main() {</br></br>
+                            &nbsp&nbsp&nbspvar a = "initial"</br>
+                            &nbsp&nbsp&nbspfmt.Println(a)</br></br>
+                            &nbsp&nbsp&nbspvar b, c int = 1, 2</br>
+                            &nbsp&nbsp&nbspfmt.Println(b, c)</br></br>
+                            &nbsp&nbsp&nbspvar d = true</br>
+                            &nbsp&nbsp&nbspfmt.Println(d)</br></br>
+                            &nbsp&nbsp&nbspvar e int</br>
+                            &nbsp&nbsp&nbspfmt.Println(e)</br></br></br>
+                            &nbsp&nbsp&nbspf := "apple"</br>
+                            &nbsp&nbsp&nbspfmt.Println(f)</br>
+                            }
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width = 550px;>
+                        <div id="comment">
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <div id="coding">
+                            <!-- <code style="color:gray;"></code> это для вывода -->
+                            $ go run variables.go</br>
+                            <code style="color:gray;">initial</code></br>
+                            <code style="color:gray;">1 2</code></br>
+                            <code style="color:gray;">true</code></br>
+                            <code style="color:gray;">0</code></br>
+                            <code style="color:gray;">apple</code>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <p>Следующий пример: <a href="constants.html">Константы (Constants)</a></p>
+            
+        </div>
+     
+        <div id="footer" style="width: 1100px;">
+            <p>Данный сайт является аналогом <a href="https://gobyexample.com/" style="color: grey;" target="_blank">gobyexample.com</a></p>
+            <p>Оригинальный сайт сделал: <a href="https://markmcgranaghan.com/" style="color: grey;" target="_blank">Mark McGranaghan</a> | <a href="https://github.com/mmcgrana/gobyexample" style="color: grey;" target="_blank">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license" style="color: grey;" target="_blank">license</a></p>
+        </div>        
+
+    </div>
+ 
+</body>
+</html>

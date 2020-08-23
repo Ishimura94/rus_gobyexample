@@ -1,0 +1,66 @@
+body {
+    background: white;
+    font-family: monospace;
+    font-size: 16;
+}
+
+#container {
+    background: white;
+    margin: auto;
+    width: 600px;
+    height: auto;
+}
+
+#header {
+    background: white;
+    height: 70px;
+    width: 600px;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+a, a:visited {
+    color: black;
+}
+
+#content {
+    background: white;
+    width: 600px;
+    height: auto;
+}
+
+dt {
+    margin-bottom: 5px;
+}
+
+#coding {
+    background: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 16;
+}
+
+#comment {
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 16;
+}
+
+td {
+    vertical-align: top;
+}
+code {
+    font-size: 16;
+}
+
+#footer {
+    background: white;
+    height: 300px;
+    width: 600px;
+    color: grey;
+}

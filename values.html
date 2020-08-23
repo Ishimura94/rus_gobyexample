@@ -1,0 +1,83 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      
+      <title>rus_GoByExample: Типы данных</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+ 
+<body>
+ 
+    <div id="container" style="width: 1100px;">
+
+        <div id="header" style="width: 1100px;">
+            <h2><a href="index.html" style="text-decoration: none;">rus_GoByExample</a>: Типы данных</h2>
+        </div> 
+ 
+        <div id="content" style="width: 1100px;">
+            <a href="https://play.golang.org/p/9Uw-Pt4M_rr" style="text-decoration: none;" target="_blank" title="Выполнить код на play.golang.org"><img src="images/golang.png" width="40" height="15" style="float: right; margin: 5px;"></a>
+            <table width = 1100px;>
+                <tr>
+                    <td width = 550px;>
+                        <div id="comment">
+                            Go имеет различные типы данных, включая строки (<code style="font-weight: bold;">string</code>),
+                            целые числа (<code style="font-weight: bold;">integer</code>),
+                            числа с плавающей запятой (<code style="font-weight: bold;">float</code>),
+                            логические значения (<code style="font-weight: bold;">boolean</code>) и т.д. Вот несколько базовых примеров.</br></br></br>
+			                Строки, которые могут соединяться вместе при помощи знака +.</br></br>
+			                Целые числа и числа с плавающей запятой.</br></br></br>
+			                Логические выражения.
+                        </div>
+                    </td>
+                    <td>
+                        <div id="coding">
+                            <!-- для табов использовать символ пробела &nbsp. 1 таб - три символа -->
+                            package main</br></br>
+                            import "fmt"</br></br>
+                            func main() {</br></br>
+                            &nbsp&nbsp&nbspfmt.Println("go" + "lang")</br></br></br>
+                            &nbsp&nbsp&nbspfmt.Println("1+1 =", 1+1)</br>
+                            &nbsp&nbsp&nbspfmt.Println("7.0/3.0 =", 7.0/3.0)</br></br>
+                            &nbsp&nbsp&nbspfmt.Println(true && false)</br>
+                            &nbsp&nbsp&nbspfmt.Println(true || false)</br>
+                            &nbsp&nbsp&nbspfmt.Println(!true)</br>
+                            }
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width = 550px;>
+                        <div id="comment">
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <div id="coding">
+                            <!-- <code style="color:gray;"></code> это для вывода -->
+                            $ go run values.go</br>
+                            <code style="color:gray;">golang</code></br>
+                            <code style="color:gray;">1+1 = 2</code></br>
+                            <code style="color:gray;">7.0/3.0 = 2.3333333333333335</code></br>
+                            <code style="color:gray;">false</code></br>
+                            <code style="color:gray;">true</code></br>
+                            <code style="color:gray;">false</code>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <p>Следующий пример: <a href="variables.html">Переменные (Variables)</a></p>
+            
+        </div>
+     
+        <div id="footer" style="width: 1100px;">
+            <p>Данный сайт является аналогом <a href="https://gobyexample.com/" style="color: grey;" target="_blank">gobyexample.com</a></p>
+            <p>Оригинальный сайт сделал: <a href="https://markmcgranaghan.com/" style="color: grey;" target="_blank">Mark McGranaghan</a> | <a href="https://github.com/mmcgrana/gobyexample" style="color: grey;" target="_blank">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license" style="color: grey;" target="_blank">license</a></p>
+        </div>        
+
+    </div>
+ 
+</body>
+</html>
